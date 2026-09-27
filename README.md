@@ -8,7 +8,7 @@
 
 
 # Project overview
-This project focuses on looking at global fertility rate changes throughout the years of 1950 to 2023. It specifically looks at India, as that is the country that has the highest overall population, and the investigation focuses on the changes throughout the years in the overall expectation of its population growth, with the use of fertility rates as the data points.
+This project investigates the changes that India's fertility rate has undergone throughout the years from 1950 to 2023, with the aim of using this data to predict the rate for the future. India was specifically chosen as it is the country with the highest population worldwide, yet their fertility rate has drastically decreased over the years and have now fallen below the threshold to keep the population stable in the long run (Shankar, 2019).  
 
 ## Research Question
 How has India's global fertility rate changed from 1950 to 2023, and how can that trend be used to predict rates for 2050?
@@ -18,10 +18,17 @@ The data used for this project was gathered from "Our World in Data", which uses
 
 The source used was: [Fertility rate: births per woman] (https://ourworldindata.org/grapher/children-born-per-woman?tab=table&tableSearch=india)
 
-The file used was called "children-born-per-woman.csv"
+To retrieve the data used, enter "India" in the search bar of the link above, and ensure that the settings are in the table format. Then download the displayed data, which shows to be 19,402 rows. 
+The data can then be imported into VS Code, and the file name is "children-born-per-woman.csv"
 
-To retrieve the data used, enter "India" in the search bar of the link above, and ensure that the settings are in the table format. Then download the displayed data, which shows to be 19,402 rows. Data is then able to be imported into VS Code via the code:
 
-data <- read.csv("https://ourworldindata.org/grapher/children-born-per-woman.csv?v=1&csvType=filtered&useColumnShortNames=true&tab=table&tableSearch=india")
+# Results
+
+
+
+# Sources used
+Our World in Data. (2025). Fertility rate: Births per woman. Retrieved September 20, 2026, from https://ourworldindata.org/grapher/children-born-per-woman?tab=table&tableSearch=india
+
+Shankar, P. (2026, June 9). India’s fertility rate falls below replacement level: Why it matters. Al Jazeera. https://www.aljazeera.com/news/2026/6/9/indias-fertility-rate-falls-below-replacement-level-why-it-matters
 
 
