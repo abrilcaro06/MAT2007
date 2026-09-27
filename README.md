@@ -1,6 +1,12 @@
 # Investigating India's fertility rate over the years 1950 - 2023
 ### MAT2007, Abril Caro Picas (i6375969)
 
+## Table of contents
+- [Project overview] (#Project overview)
+- [Research question] (#Research question)
+- [Dataset] (#Dataset)
+
+
 # Project overview
 This project focuses on looking at global fertility rate changes throughout the years of 1950 to 2023. It specifically looks at India, as that is the country that has the highest overall population, and the investigation focuses on the changes throughout the years in the overall expectation of its population growth, with the use of fertility rates as the data points.
 
