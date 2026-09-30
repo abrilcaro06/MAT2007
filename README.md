@@ -2,9 +2,9 @@
 ### MAT2007, Abril Caro Picas (i6375969)
 
 ## Table of contents
-- [Project overview] (#Project overview)
-- [Research question] (#Research question)
-- [Dataset] (#Dataset)
+[Project overview] (#Project overview)
+[Research question] (#Research question)
+[Dataset] (#Dataset)
 
 
 # Project overview
@@ -18,8 +18,15 @@ The data used for this project was gathered from "Our World in Data", which uses
 
 The source used was: [Fertility rate: births per woman] (https://ourworldindata.org/grapher/children-born-per-woman?tab=table&tableSearch=india)
 
+## How to gather the correct data
 To retrieve the data used, enter "India" in the search bar of the link above, and ensure that the settings are in the table format. Then download the displayed data, which shows to be 19,402 rows. 
 The data can then be imported into VS Code, and the file name is "children-born-per-woman.csv"
+
+# Code
+The code that is used is added to the GitHub repository. The code was seperated into two parts.
+Part 1 includes the recruitment and analysis of the data. This is seen in "Project.R" in Github. This code fetches the data from the downloaded "children-born-per-woman.csv" file, filters data to only look at India entity, and saves the data in new file, named "india_data.csv".
+Part 2 includes the second file in the repository labeled as "ProjectPlotting.py". In this file, the "india_data.csv" is read and plotted using Python. 
+
 
 
 # Results
