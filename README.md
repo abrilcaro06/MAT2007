@@ -1,12 +1,6 @@
 # Investigating India's fertility rate over the years 1950 - 2023
 ### MAT2007, Abril Caro Picas (i6375969)
 
-## Table of contents
-- [Project overview] (# project-overview)
-- [Research question] (#research-question)
-- [Dataset] (#Dataset)
-
-
 # Project overview
 This project investigates the changes that India's fertility rate has undergone throughout the years from 1950 to 2023, with the aim of using this data to predict the rate for the future. India was specifically chosen as it is the country with the highest population worldwide, yet their fertility rate has drastically decreased over the years and have now fallen below the threshold to keep the population stable in the long run (Shankar, 2019).  
 
