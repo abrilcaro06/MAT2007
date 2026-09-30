@@ -25,8 +25,15 @@ Part 2 includes the second file in the repository labeled as "ProjectPlotting.py
 
 # Results
 <img width="1000" height="500" alt="fertility_scatter" src="https://github.com/user-attachments/assets/a668b4cb-c59f-4807-92c6-4fbf2592cd33" />
-The initial lotting between the years and their corresponding fertility rates can be seen above. 
+The initial plotting between the years and their corresponding fertility rates can be seen above. 
 This was then used to add a line of best fit, done so by a linear regression, which has the formula defined as: y=mx+b. Where m stands for the slope value, and b stands for the y-intercept. Using this equation allows the relationship between the years and the fertility rates to be analyzed, and also allows for future values to be predicted. 
+
+<img width="1000" height="500" alt="regressionline" src="https://github.com/user-attachments/assets/5f4a6b61-295c-44c8-9bb6-865abeb4f097" />
+
+This new figure includes the line of best fit, which can now be defined as:
+y= -0.064x + b
+
+The r value was also calculated through the code in "ProjectPlotting.py" and yielded a value of r= -0.985. This correlation coefficient is shown to be a strong negative correlation. 
 
 
 # Sources used
