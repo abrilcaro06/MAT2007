@@ -2,9 +2,9 @@
 ### MAT2007, Abril Caro Picas (i6375969)
 
 ## Table of contents
-[Project overview] (#Project overview)
-[Research question] (#Research question)
-[Dataset] (#Dataset)
+- [Project overview] (# project-overview)
+- [Research question] (#research-question)
+- [Dataset] (#Dataset)
 
 
 # Project overview
