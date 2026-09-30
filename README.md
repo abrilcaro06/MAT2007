@@ -25,6 +25,9 @@ Part 2 includes the second file in the repository labeled as "ProjectPlotting.py
 
 # Results
 <img width="1000" height="500" alt="fertility_scatter" src="https://github.com/user-attachments/assets/a668b4cb-c59f-4807-92c6-4fbf2592cd33" />
+The initial lotting between the years and their corresponding fertility rates can be seen above. 
+This was then used to add a line of best fit, done so by a linear regression, which has the formula defined as: y=mx+b. Where m stands for the slope value, and b stands for the y-intercept. Using this equation allows the relationship between the years and the fertility rates to be analyzed, and also allows for future values to be predicted. 
+
 
 # Sources used
 Our World in Data. (2025). Fertility rate: Births per woman. Retrieved September 20, 2026, from https://ourworldindata.org/grapher/children-born-per-woman?tab=table&tableSearch=india
