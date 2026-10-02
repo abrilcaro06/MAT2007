@@ -38,7 +38,7 @@ The r value was also calculated through the code in "ProjectPlotting.py" and yie
 
 ## Predicting 2050
 To see if the line of best fit can be accurately used to predict 2050, I took the values for 1950-2020 and created a new linear regression.  
-The code for this can be found in __
+The code for this can be found in the repository, labeled as "Projectplotting-2020.py"
 This gave the equation: y= -0.0637x + 6.5546.
 This equation was then used to calculate for the year 2023 and see if it could accurately predict it.
 The actual value of 2023 was 1.975, whilst the function predicted 2023 to have a fertility rate of 1.904, leading to a difference of 0.071.
