@@ -36,6 +36,18 @@ y= -0.0636x + 6.5524
 
 The r value was also calculated through the code in "ProjectPlotting.py" and yielded a value of r= -0.985. This correlation coefficient is shown to be a strong negative correlation. 
 
+## Predicting 2050
+To see if the line of best fit can be accurately used to predict 2050, I took the values for 1950-2020 and created a new linear regression.  
+The code for this can be found in __
+This gave the equation: y= -0.0637x + 6.5546.
+This equation was then used to calculate for the year 2023 and see if it could accurately predict it.
+The actual value of 2023 was 1.975, whilst the function predicted 2023 to have a fertility rate of 1.904, leading to a difference of 0.071.
+As this difference is very small, the original function will now be used to predict 2050.
+As the function takes 1950 as the initial value, to find 2050, x must be 100.
+y= -0.0636(100) + 6.5524
+y=0.192
+
+
 
 # Sources used
 Our World in Data. (2025). Fertility rate: Births per woman. Retrieved September 20, 2026, from https://ourworldindata.org/grapher/children-born-per-woman?tab=table&tableSearch=india
