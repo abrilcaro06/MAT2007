@@ -17,10 +17,25 @@ To retrieve the data used, enter "India" in the search bar of the link above, an
 The data can then be imported into VS Code, and the file name is "children-born-per-woman.csv"
 
 # Code
-The code that is used is added to the GitHub repository. The code was seperated into two parts.
-Part 1 includes the recruitment and analysis of the data. This is seen in "Project.R" in Github. This code fetches the data from the downloaded "children-born-per-woman.csv" file, filters data to only look at India entity, and saves the data in new file, named "india_data.csv".
-Part 2 includes the second file in the repository labeled as "ProjectPlotting.py". In this file, the "india_data.csv" is read and plotted using Python. 
+All of the code used is visible in the GitHub repository. The code was separated into multiple parts.
 
+### Part 1 - Data collection
+Part 1 includes the recruitment and analysis of the data. This is seen in **"Project.R"** in Github. This code fetches the data from the downloaded "children-born-per-woman.csv" file, filters data to only look at India entity, and saves the data in new file, named "india_data.csv".
+
+
+### Part 2 - Plotting scatterplot Data collection
+The second part includes creating the scatterplot, which was made in the code file labeled as **"ProjectPlotting.py"**.
+In this file, the "india_data.csv" is read and plotted using Python. 
+The extensions used were: numpy, pandas, matplotlib __,
+Here, the scatterplots were made, including the line of best fit, the equation, and the r coefficient.
+Other values were also coded for, showing the prediction value for 2050 and the mean and standard deviation.
+
+
+### Part 3 - Calculations for the back-test (1950-2020) 
+In this file, the backtest calculations to predict 2023 from data 1950-202 was done. I chose to do this in a new file to have these calculations seperated from my main data set to avoid confusion. This file is found under the name **"ProjectPlotting-2020.py"**.
+
+### Part 4 - Subsampling method: Line of best fit and Gaussian distribution 
+In this file, I did all the calculations and plotting with the 5 different subgroups. This is found in the repository labeled as **"ProjectSubsampling.py"** 
 
 
 # Results
