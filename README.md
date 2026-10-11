@@ -113,7 +113,9 @@ Then the 5 groups were plotted into a Gaussian distribution, as seen below.
 - 3 subgroups fit the 1 sigma range
 - 2 subgroups fit the 2 sigma range
 
+# Conclusion of results
 
+The original linear regression plot presented a predicted value of 0.192 births per woman. When backtesting was conducted, the prediction of 2023 using data from 1950-2020 was only 3.6% off the original value. The method of subsampling was used to get more linear regressions, and all where plotted to extrapolate for 2050 and plot on a Gaussian distribution curve. Showing a value of 0.19 +/- 0.22 births per woman in 2050, which was very close to the original value found through the linear regression equation. These results remain below the benchmark of 2.1 for India to continue having a stable population. Nonetheless, it is important to note that the value for uncertainty was only accounting the 5 subgroups, and this would change if different values were used. Therefore, the investigation would benefit from further replication of the results to give a more stable sigma value. Furthermore, the results themselves are not very realistic due to the linear model continuously decreasing, and leading to values lower than zero, which is not possible. A different model would be a better fit, and would likely account for the values from the 1960s better, as those had a slight upward curve in fertility rates, leading to the thought that an S-curve might fit the data set better than the linear regression that was used. 
 
 
 
