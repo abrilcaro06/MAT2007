@@ -16,9 +16,7 @@ The source used was: [Fertility rate: births per woman] (https://ourworldindata.
 To retrieve the data used go on Our World in Data into the fertility database. Once the website opens, go to the search bar and enter "India", and ensure that the settings are in the table format. Then click the download button, and only download the displayed data, which includes 19,402 rows. 
 The data can then be imported into VS Code, and the file name is "children-born-per-woman.csv"
 
-This data will then need to be filtered through code, seen in **Project.R**, to retrieve 74 lines of code that will be used throughout this research investigation. 
-
-
+This data will then need to be filtered through code, seen in **Project.R**, to retrieve 74 lines of code that will be used throughout this research investigation. Out of these 74 data points, 1 line is the headers, while the other 73 are the data points from 1950-2023.
 
 # Code
 All of the code used is visible in the GitHub repository. The code was separated into multiple parts.
@@ -34,7 +32,6 @@ The extensions used were: numpy, pandas and matplotlib
 Here, the scatterplots were made, including the line of best fit, the equation, and the r coefficient.
 Other values were also coded for, showing the prediction value for 2050 and the mean and standard deviation.
 
-
 ### Part 3 - Calculations for the back-test (1950-2020) 
 In this file, the backtest calculations to predict 2023 from data 1950-202 was done. I chose to do this in a new file to have these calculations separated from my main data set to avoid confusion. This file is found under the name **"ProjectPlotting-2020.py"**.
 
@@ -44,14 +41,15 @@ In this file, I did all the calculations and plotting with the 5 different subgr
 
 # Results
 <img width="1000" height="500" alt="fertility_scatter" src="https://github.com/user-attachments/assets/a668b4cb-c59f-4807-92c6-4fbf2592cd33" />
+
 The initial plotting between the years and their corresponding fertility rates can be seen above. 
 This was then used to add a line of best fit, done so by a linear regression, which has the formula defined as: y=mx+b. Where m stands for the slope value, and b stands for the y-intercept. Using this equation allows the relationship between the years and the fertility rates to be analyzed, and also allows for future values to be predicted. 
 
 <img width="1000" height="500" alt="fertility_linebestfit" src="https://github.com/user-attachments/assets/ff95a621-6afe-4650-898e-c46383944f10" />
 
-
 This new figure includes the line of best fit, which can now be defined as:
-y= -0.0636x + 6.5524
+
+[y= -0.0636x + 6.5524]
 
 The r value was also calculated through the code in "ProjectPlotting.py" and yielded a value of r= -0.985. This correlation coefficient is shown to be a strong negative correlation. 
 
