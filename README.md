@@ -51,16 +51,65 @@ y= -0.0636x + 6.5524
 
 The r value was also calculated through the code in "ProjectPlotting.py" and yielded a value of r= -0.985. This correlation coefficient is shown to be a strong negative correlation. 
 
-## Predicting 2050
+## Back-testing linear function 
 To see if the line of best fit can be accurately used to predict 2050, I took the values for 1950-2020 and created a new linear regression.  
-The code for this can be found in the repository, labeled as "Projectplotting-2020.py"
+The code for this can be found in the repository: **"Projectplotting-2020.py"**
 This gave the equation: y= -0.0637x + 6.5546.
 This equation was then used to calculate for the year 2023 and see if it could accurately predict it.
 The actual value of 2023 was 1.975, whilst the function predicted 2023 to have a fertility rate of 1.904, leading to a difference of 0.071.
+
+
+## Predicting 2050 
+
 As this difference is very small, the original function will now be used to predict 2050.
 As the function takes 1950 as the initial value, to find 2050, x must be 100.
+
 y= -0.0636(100) + 6.5524
 y=0.192
+
+Then the subsampling was done, where the data was split into 5 subgroups, each containing around 14 data points. 
+All the subsampling calculations and plotting were done in the  **"ProjectSubsampling.py"**
+
+The prediction of 2050 for each group can be found below:
+
+
+| Group Number.                               | Prediction (Births per woman)   |
+| ------------------------------------------  | ------- |
+| Group 1                                     | 0.185   |
+| Group 2                                     | -0.17   |
+| Group 3                                     | 0.426   |
+| Group 4                                     | 0.270   |
+| Group 5                                     | 0.258   |
+
+The sigma values were also calculated in this code:
+
+| Group Number                               | Sigma range   |
+| ------------------------------------------  | ------- |
+| 1 sigma (68%)                               | -0.03 to 0.42   |
+| 2 sigma (95%)                               |  -0.25 to 0.64   |
+| 3 sigma (99.7%)                             | -0.47 to 0.86   |
+
+
+The overall mean and uncertainty gave a value of 0.19 +/- 0.22, which can be seen in the graph.
+
+
+<img width="1000" height="500" alt="line5subsample" src="https://github.com/user-attachments/assets/90c7187a-c7a2-4ae9-8168-5933d11fb278" />
+
+- The red line is the line of best fit for 2050 without subsampling 
+- Blue lines represent the line of best fit for every subgroup, all extrapolating to 2050.
+- Black point is the 2050 value including uncertainty, found by using the 5 subgroups
+
+Then the 5 groups were plotted into a Gaussian distrubution, as seen below.
+
+<img width="640" height="480" alt="Gaussiandistribtion" src="https://github.com/user-attachments/assets/0cc4e2f3-06c8-4d29-b67c-fd2f47b1744d" />
+
+- Mean is 0.19 births per woman
+- Uncertainty is 0.22
+- Red dots represent each subgroup value in the tables above
+- 3 subgroups fit the 1 sigma range
+- 2 subgroups fit the 2 sigma range
+
+
 
 
 
