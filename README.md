@@ -13,8 +13,12 @@ The data used for this project was gathered from "Our World in Data", which uses
 The source used was: [Fertility rate: births per woman] (https://ourworldindata.org/grapher/children-born-per-woman?tab=table&tableSearch=india)
 
 ## How to gather the correct data
-To retrieve the data used, enter "India" in the search bar of the link above, and ensure that the settings are in the table format. Then download the displayed data, which shows to be 19,402 rows. 
+To retrieve the data used go on Our World in Data into the fertility database. Once the website opens, go to the search bar and enter "India", and ensure that the settings are in the table format. Then click the download button, and only download the displayed data, which includes 19,402 rows. 
 The data can then be imported into VS Code, and the file name is "children-born-per-woman.csv"
+
+This data will then need to be filtered through code, seen in **Project.R**, to retrieve 74 lines of code that will be used throughout this research investigation. 
+
+
 
 # Code
 All of the code used is visible in the GitHub repository. The code was separated into multiple parts.
@@ -26,13 +30,13 @@ Part 1 includes the recruitment and analysis of the data. This is seen in **"Pro
 ### Part 2 - Plotting scatterplot Data collection
 The second part includes creating the scatterplot, which was made in the code file labeled as **"ProjectPlotting.py"**.
 In this file, the "india_data.csv" is read and plotted using Python. 
-The extensions used were: numpy, pandas, matplotlib __,
+The extensions used were: numpy, pandas and matplotlib
 Here, the scatterplots were made, including the line of best fit, the equation, and the r coefficient.
 Other values were also coded for, showing the prediction value for 2050 and the mean and standard deviation.
 
 
 ### Part 3 - Calculations for the back-test (1950-2020) 
-In this file, the backtest calculations to predict 2023 from data 1950-202 was done. I chose to do this in a new file to have these calculations seperated from my main data set to avoid confusion. This file is found under the name **"ProjectPlotting-2020.py"**.
+In this file, the backtest calculations to predict 2023 from data 1950-202 was done. I chose to do this in a new file to have these calculations separated from my main data set to avoid confusion. This file is found under the name **"ProjectPlotting-2020.py"**.
 
 ### Part 4 - Subsampling method: Line of best fit and Gaussian distribution 
 In this file, I did all the calculations and plotting with the 5 different subgroups. This is found in the repository labeled as **"ProjectSubsampling.py"** 
@@ -68,7 +72,7 @@ y= -0.0636(100) + 6.5524
 y=0.192
 
 Then the subsampling was done, where the data was split into 5 subgroups, each containing around 14 data points. 
-All the subsampling calculations and plotting were done in the  **"ProjectSubsampling.py"**
+All the subsampling calculations and plotting were done in the **"ProjectSubsampling.py"**
 
 The prediction of 2050 for each group can be found below:
 
@@ -99,7 +103,7 @@ The overall mean and uncertainty gave a value of 0.19 +/- 0.22, which can be see
 - Blue lines represent the line of best fit for every subgroup, all extrapolating to 2050.
 - Black point is the 2050 value including uncertainty, found by using the 5 subgroups
 
-Then the 5 groups were plotted into a Gaussian distrubution, as seen below.
+Then the 5 groups were plotted into a Gaussian distribution, as seen below.
 
 <img width="640" height="480" alt="Gaussiandistribtion" src="https://github.com/user-attachments/assets/0cc4e2f3-06c8-4d29-b67c-fd2f47b1744d" />
 
