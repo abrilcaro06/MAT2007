@@ -49,7 +49,7 @@ This was then used to add a line of best fit, done so by a linear regression, wh
 
 This new figure includes the line of best fit, which can now be defined as:
 
-[y= -0.0636x + 6.5524]
+y= -0.0636x + 6.5524
 
 The r value was also calculated through the code in "ProjectPlotting.py" and yielded a value of r= -0.985. This correlation coefficient is shown to be a strong negative correlation. 
 
@@ -75,7 +75,7 @@ All the subsampling calculations and plotting were done in the **"ProjectSubsamp
 The prediction of 2050 for each group can be found below:
 
 
-| Group Number.                               | Prediction (Births per woman)   |
+| Group Number                               | 2050 Prediction (Births per woman)   |
 | ------------------------------------------  | ------- |
 | Group 1                                     | 0.185   |
 | Group 2                                     | -0.17   |
@@ -99,7 +99,7 @@ The overall mean and uncertainty gave a value of 0.19 +/- 0.22, which can be see
 
 - The red line is the line of best fit for 2050 without subsampling 
 - Blue lines represent the line of best fit for every subgroup, all extrapolating to 2050.
-- Black point is the 2050 value including uncertainty, found by using the 5 subgroups
+- The black point is the 2050 value including uncertainty, found by using the 5 subgroups
 
 Then the 5 groups were plotted into a Gaussian distribution, as seen below.
 
@@ -113,8 +113,7 @@ Then the 5 groups were plotted into a Gaussian distribution, as seen below.
 
 # Conclusion of results
 
-The original linear regression plot presented a predicted value of 0.192 births per woman. When backtesting was conducted, the prediction of 2023 using data from 1950-2020 was only 3.6% off the original value. The method of subsampling was used to get more linear regressions, and all were plotted to extrapolate for 2050 and plot on a Gaussian distribution curve. Showing a value of 0.19 +/- 0.22 births per woman in 2050, which was very close to the original value found through the linear regression equation. These results remain below the benchmark of 2.1 for India to continue having a stable population. Nonetheless, it is important to note that the value for uncertainty was only accounting for the 5 subgroups, and this would change if different values were used. Therefore, the investigation would benefit from further replication of the results to give a more stable sigma value. Furthermore, the results themselves are not very realistic due to the linear model continuously decreasing, leading to values lower than zero, which is not possible. A different model would be a better fit and would likely account for the values from the 1960s better, as those had a slight upward curve in fertility rates, leading to the thought that an S-curve might fit the data set better than the linear regression that was used, this was a model that was used by the UN and predicted a value of 1.76 births per woman. Therefore, if there was more time, a different model could be used, and the results could be compared to the values predicted by the UN for 2050.  
-
+The original linear regression plot presented a predicted value of 0.192 births per woman. When backtesting was conducted, the prediction of 2023 using data from 1950-2020 was only 3.6% off the original value. The method of subsampling was used to get 5 more linear regressions, and all were plotted to extrapolate for 2050 and plotted on a Gaussian distribution curve. Showing a value of 0.19 +/- 0.22 births per woman in 2050, which was very close to the original value found through the linear regression equation. These results remain below the benchmark of 2.1 for India to continue having a stable population. Nonetheless, it is important to note that the value for uncertainty was only accounting for the 5 subgroups, and this would change if different values were used. Therefore, the investigation would benefit from further replication of the results to give a more stable sigma value. Furthermore, the results themselves are not very realistic due to the linear model continuously decreasing, leading to values lower than zero, which is not possible for the fertility rates. A different model would be a better fit and would likely account for the values from the 1960s better, as those had a slight upward curve in fertility rates, leading to the thought that an S-curve might fit the data set better than the linear regression that was used. Additionally, this type of model, the logistic function, was used by the UN to predict the future, where they found a value of 1.76 births per woman for 2050. Therefore, if there were more time, a different model could be used for this investigation, and the results could be compared to the values predicted by the UN for 2050.  
 
 
 # Sources used
